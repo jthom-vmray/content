@@ -27,3 +27,6 @@ ignore=PB110
 
 [file:PaloAltoNetworks_Cortex_XDR_Incident_Sync.yml]
 ignore=PB110
+
+[file:XDR_iocs_-_Test.yml]
+ignore=auto-test

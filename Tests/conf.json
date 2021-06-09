@@ -564,12 +564,6 @@
             "timeout": 800
         },
         {
-            "integrations": "Cortex XDR - IOC",
-            "playbookID": "Cortex XDR - IOC - Test",
-            "fromversion": "5.5.0",
-            "timeout": 1200
-        },
-        {
             "integrations": "Cloaken",
             "playbookID": "Cloaken-Test",
             "is_mockable": false
@@ -3397,7 +3391,6 @@
         "Tanium v2 - Test": "Issue 26822",
         "hashIncidentFields-test": "Issue 26850",
         "Fidelis Elevate Network": "Issue 26453",
-        "Cortex XDR - IOC - Test": "Issue 25598",
         "Cherwell Example Scripts - test": "Issue 26780",
         "Cherwell - test": "Issue 26780",
         "PAN-OS Query Logs For Indicators Test": "Issue 28753",
@@ -3588,7 +3581,6 @@
         "BPA": "Playbook using GenericPolling which is inconsistent",
         "XsoarPowershellTesting": "Integration which not use network.",
         "Mail Listener v2": "Integration has no proxy checkbox",
-        "Cortex XDR - IOC": "'Cortex XDR - IOC - Test' is using also the fetch indicators which is not working in proxy mode",
         "SecurityAndCompliance": "Integration doesn't support proxy",
         "Cherwell": "Submits a file - tests that send files shouldn't be mocked. this problem was fixed but the test is not running anymore because the integration is skipped",
         "Maltiverse": "issue 24335",
